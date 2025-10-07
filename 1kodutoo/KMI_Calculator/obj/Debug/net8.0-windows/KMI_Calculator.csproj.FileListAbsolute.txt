@@ -1,0 +1,39 @@
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\bin\Debug\net8.0-windows\KMI_Calculator.exe
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\bin\Debug\net8.0-windows\KMI_Calculator.deps.json
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\bin\Debug\net8.0-windows\KMI_Calculator.runtimeconfig.json
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\bin\Debug\net8.0-windows\KMI_Calculator.dll
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\bin\Debug\net8.0-windows\KMI_Calculator.pdb
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator_MarkupCompile.cache
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.g.resources
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.AssemblyInfoInputs.cache
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.AssemblyInfo.cs
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.dll
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\obj\Debug\net8.0-windows\refint\KMI_Calculator.dll
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.pdb
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.genruntimeconfig.cache
+C:\Users\henri\source\repos\KMI_Calculator\KMI_Calculator\obj\Debug\net8.0-windows\ref\KMI_Calculator.dll
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\bin\Debug\net8.0-windows\KMI_Calculator.exe
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\bin\Debug\net8.0-windows\KMI_Calculator.deps.json
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\bin\Debug\net8.0-windows\KMI_Calculator.runtimeconfig.json
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\bin\Debug\net8.0-windows\KMI_Calculator.dll
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\bin\Debug\net8.0-windows\KMI_Calculator.pdb
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator_MarkupCompile.cache
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.g.resources
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.AssemblyInfoInputs.cache
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.AssemblyInfo.cs
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.sourcelink.json
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.dll
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\obj\Debug\net8.0-windows\refint\KMI_Calculator.dll
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.pdb
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\obj\Debug\net8.0-windows\KMI_Calculator.genruntimeconfig.cache
+C:\Users\henri\Veebirakendus\1 kodutoo\KMI_Calculator\obj\Debug\net8.0-windows\ref\KMI_Calculator.dll
