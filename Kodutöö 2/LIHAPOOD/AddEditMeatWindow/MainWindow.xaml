@@ -1,0 +1,30 @@
+﻿<Window x:Class="LIHAPOOD.AddEditMeatWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lisa/Muuda liha" Height="300" Width="300"
+        WindowStartupLocation="CenterOwner">
+    <Grid Margin="15">
+        <StackPanel>
+            <TextBlock Text="Nimi:"/>
+            <TextBox x:Name="NameTextBox" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Hind/kg:"/>
+            <TextBox x:Name="PriceTextBox" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Asukoht:"/>
+            <TextBox x:Name="LocationTextBox" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Värskus kuni:"/>
+            <DatePicker x:Name="FreshUntilDatePicker" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Liik:"/>
+            <ComboBox x:Name="TypeComboBox" Margin="0,0,0,15">
+                <ComboBoxItem Content="Kanaliha"/>
+                <ComboBoxItem Content="Sealiha"/>
+                <ComboBoxItem Content="Veiseliha"/>
+            </ComboBox>
+
+            <Button Content="Salvesta" Click="SaveButton_Click" Padding="10,5"/>
+        </StackPanel>
+    </Grid>
+</Window>

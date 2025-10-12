@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\henri\\Veebirakendus\\Kodut\u00F6\u00F6 2\\LIHAPOOD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F929B50-FF7F-45A4-9335-A8075D644034}|LIHAPOOD\\LIHAPOOD.csproj|c:\\users\\henri\\veebirakendus\\kodut\u00F6\u00F6 2\\lihapood\\lihapood\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F929B50-FF7F-45A4-9335-A8075D644034}|LIHAPOOD\\LIHAPOOD.csproj|solutionrelative:lihapood\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F929B50-FF7F-45A4-9335-A8075D644034}|LIHAPOOD\\LIHAPOOD.csproj|c:\\users\\henri\\veebirakendus\\kodut\u00F6\u00F6 2\\lihapood\\lihapood\\meat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F929B50-FF7F-45A4-9335-A8075D644034}|LIHAPOOD\\LIHAPOOD.csproj|solutionrelative:lihapood\\meat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F929B50-FF7F-45A4-9335-A8075D644034}|LIHAPOOD\\LIHAPOOD.csproj|c:\\users\\henri\\veebirakendus\\kodut\u00F6\u00F6 2\\lihapood\\lihapood\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F929B50-FF7F-45A4-9335-A8075D644034}|LIHAPOOD\\LIHAPOOD.csproj|solutionrelative:lihapood\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F929B50-FF7F-45A4-9335-A8075D644034}|LIHAPOOD\\LIHAPOOD.csproj|c:\\users\\henri\\veebirakendus\\kodut\u00F6\u00F6 2\\lihapood\\lihapood\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F929B50-FF7F-45A4-9335-A8075D644034}|LIHAPOOD\\LIHAPOOD.csproj|solutionrelative:lihapood\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F929B50-FF7F-45A4-9335-A8075D644034}|LIHAPOOD\\LIHAPOOD.csproj|c:\\users\\henri\\veebirakendus\\kodut\u00F6\u00F6 2\\lihapood\\lihapood\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4F929B50-FF7F-45A4-9335-A8075D644034}|LIHAPOOD\\LIHAPOOD.csproj|solutionrelative:lihapood\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F929B50-FF7F-45A4-9335-A8075D644034}|LIHAPOOD\\LIHAPOOD.csproj|c:\\users\\henri\\veebirakendus\\kodut\u00F6\u00F6 2\\lihapood\\lihapood\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F929B50-FF7F-45A4-9335-A8075D644034}|LIHAPOOD\\LIHAPOOD.csproj|solutionrelative:lihapood\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F929B50-FF7F-45A4-9335-A8075D644034}|LIHAPOOD\\LIHAPOOD.csproj|c:\\users\\henri\\veebirakendus\\kodut\u00F6\u00F6 2\\lihapood\\lihapood\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F929B50-FF7F-45A4-9335-A8075D644034}|LIHAPOOD\\LIHAPOOD.csproj|solutionrelative:lihapood\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\henri\\Veebirakendus\\Kodut\u00F6\u00F6 2\\LIHAPOOD\\LIHAPOOD\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "LIHAPOOD\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\henri\\Veebirakendus\\Kodut\u00F6\u00F6 2\\LIHAPOOD\\LIHAPOOD\\MainWindow.xaml",
+              "RelativeToolTip": "LIHAPOOD\\MainWindow.xaml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-12T18:40:15.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\henri\\Veebirakendus\\Kodut\u00F6\u00F6 2\\LIHAPOOD\\LIHAPOOD\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "LIHAPOOD\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\henri\\Veebirakendus\\Kodut\u00F6\u00F6 2\\LIHAPOOD\\LIHAPOOD\\AssemblyInfo.cs",
+              "RelativeToolTip": "LIHAPOOD\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T17:37:11.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\henri\\Veebirakendus\\Kodut\u00F6\u00F6 2\\LIHAPOOD\\LIHAPOOD\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "LIHAPOOD\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\henri\\Veebirakendus\\Kodut\u00F6\u00F6 2\\LIHAPOOD\\LIHAPOOD\\MainWindow.xaml",
+              "RelativeToolTip": "LIHAPOOD\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-12T18:40:41.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\henri\\Veebirakendus\\Kodut\u00F6\u00F6 2\\LIHAPOOD\\LIHAPOOD\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LIHAPOOD\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\henri\\Veebirakendus\\Kodut\u00F6\u00F6 2\\LIHAPOOD\\LIHAPOOD\\MainWindow.xaml.cs",
+              "RelativeToolTip": "LIHAPOOD\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T17:36:32.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\henri\\Veebirakendus\\Kodut\u00F6\u00F6 2\\LIHAPOOD\\LIHAPOOD\\App.xaml.cs",
+              "RelativeDocumentMoniker": "LIHAPOOD\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\henri\\Veebirakendus\\Kodut\u00F6\u00F6 2\\LIHAPOOD\\LIHAPOOD\\App.xaml.cs",
+              "RelativeToolTip": "LIHAPOOD\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T16:48:27.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\henri\\Veebirakendus\\Kodut\u00F6\u00F6 2\\LIHAPOOD\\LIHAPOOD\\App.xaml",
+              "RelativeDocumentMoniker": "LIHAPOOD\\App.xaml",
+              "ToolTip": "C:\\Users\\henri\\Veebirakendus\\Kodut\u00F6\u00F6 2\\LIHAPOOD\\LIHAPOOD\\App.xaml",
+              "RelativeToolTip": "LIHAPOOD\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-12T15:33:05.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Meat.cs",
+              "DocumentMoniker": "C:\\Users\\henri\\Veebirakendus\\Kodut\u00F6\u00F6 2\\LIHAPOOD\\LIHAPOOD\\Meat.cs",
+              "RelativeDocumentMoniker": "LIHAPOOD\\Meat.cs",
+              "ToolTip": "C:\\Users\\henri\\Veebirakendus\\Kodut\u00F6\u00F6 2\\LIHAPOOD\\LIHAPOOD\\Meat.cs",
+              "RelativeToolTip": "LIHAPOOD\\Meat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T14:25:34.943Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
