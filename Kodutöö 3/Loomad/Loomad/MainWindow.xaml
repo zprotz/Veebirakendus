@@ -1,0 +1,259 @@
+﻿<Window x:Class="Loomad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Loomad"
+        mc:Ignorable="d"
+        Title="Loomade Haldamine" Height="720" Width="500">
+
+    <Grid Background="#FFDCDBDA">
+        <Grid.Resources>
+
+            <SolidColorBrush x:Key="PrimaryBackground" Color="#FF254C74"/>
+            <SolidColorBrush x:Key="PanelBackground" Color="#FFE2E2E2"/>
+            <SolidColorBrush x:Key="ButtonBackground" Color="#FFEDEDED"/>
+            <SolidColorBrush x:Key="PrimaryTextColor" Color="Black"/>
+            <SolidColorBrush x:Key="BorderColor" Color="#FFBFBFBE"/>
+            <SolidColorBrush x:Key="AccentGreen" Color="#FF48FF00"/>
+            <SolidColorBrush x:Key="AccentRed" Color="#FFFF4087"/>
+
+
+            <!-- Nuppu stiil -->
+            <Style x:Key="PrimaryButtonStyle" TargetType="{x:Type Button}">
+                <Setter Property="Background" Value="{StaticResource ButtonBackground}"/>
+                <Setter Property="Foreground" Value="{StaticResource PrimaryTextColor}"/>
+                <Setter Property="FontWeight" Value="Light"/>
+                <Setter Property="FontFamily" Value="Roboto"/>
+                <Setter Property="BorderThickness" Value="2"/>
+                <Setter Property="BorderBrush" Value="{StaticResource BorderColor}"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border x:Name="border" 
+                                CornerRadius="10"
+                                Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                SnapsToDevicePixels="True">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <!-- Listbox stiil-->
+            <Style x:Key="PrimaryListBoxStyle" TargetType="{x:Type ListBox}">
+                <Setter Property="Background" Value="{StaticResource PanelBackground}"/>
+                <Setter Property="Foreground" Value="{StaticResource PrimaryTextColor}"/>
+                <Setter Property="FontWeight" Value="Light"/>
+                <Setter Property="Padding" Value="12 6 12 6"/>
+                <Setter Property="BorderThickness" Value="2"/>
+                <Setter Property="BorderBrush" Value="{StaticResource BorderColor}"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type ListBox}">
+                            <Border x:Name="border" 
+                                CornerRadius="10"
+                                Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                SnapsToDevicePixels="True">
+                                <ScrollViewer>
+                                    <ItemsPresenter/>
+                                </ScrollViewer>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="ItemContainerStyle">
+                    <Setter.Value>
+                        <Style TargetType="{x:Type ListBoxItem}">
+                            <Setter Property="Background" Value="Transparent"/>
+                            <Setter Property="BorderThickness" Value="0"/>
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                                        <Border Background="Transparent" BorderThickness="0">
+                                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <!-- Tühja ristküliku stiil-->
+            <Style x:Key="PrimaryRectangleStyle" TargetType="{x:Type Rectangle}">
+                <Setter Property="Fill" Value="{StaticResource PanelBackground}"/>
+                <Setter Property="Stroke" Value="{StaticResource BorderColor}"/>
+                <Setter Property="StrokeThickness" Value="2"/>
+                <Setter Property="RadiusX" Value="10"/>
+                <Setter Property="RadiusY" Value="15"/>
+                <Setter Property="Opacity" Value="0.9"/>
+            </Style>
+            
+            <!-- Tekstkasti stiil-->
+            <Style x:Key="PrimaryTextBox" TargetType="{x:Type TextBox}">
+                <Setter Property="Background" Value="{StaticResource PanelBackground}"/>
+                <Setter Property="Foreground" Value="{StaticResource PrimaryTextColor}"/>
+                <Setter Property="FontFamily" Value="Roboto"/>
+                <Setter Property="FontSize" Value="12"/>
+                <Setter Property="BorderThickness" Value="2"/>
+                <Setter Property="BorderBrush" Value="{StaticResource BorderColor}"/>
+                <Setter Property="Padding" Value="8,6"/>
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type TextBox}">
+                            <Border x:Name="border" 
+                    CornerRadius="10"
+                    Background="{TemplateBinding Background}" 
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}"
+                    SnapsToDevicePixels="True">
+                                <ScrollViewer x:Name="PART_ContentHost" 
+                                  Padding="{TemplateBinding Padding}"
+                                  VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </Grid.Resources>
+
+        <!-- Ruudustik paigutus -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="200"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Ristkülikud -->
+        <Rectangle Grid.Row="1" Grid.Column="0" Margin="10,10,10,160" 
+                   Style="{StaticResource PrimaryRectangleStyle}"/>
+        <Rectangle Grid.Row="1" Grid.Column="1" Margin="0,10,10,120" 
+                   Style="{StaticResource PrimaryRectangleStyle}"/>
+        <Rectangle Grid.Row="2" Grid.ColumnSpan="2" Margin="10" 
+                   Style="{StaticResource PrimaryRectangleStyle}"/>
+
+        <!-- Header -->
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" 
+                   Text="Loomade Haldamine" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   FontSize="24" FontFamily="Yu Gothic Medium" FontWeight="Light" 
+                   Margin="10" Height="42" Foreground="{StaticResource PrimaryTextColor}"/>
+
+        <!--  Looma list -->
+        <StackPanel Grid.Row="1" Grid.Column="0" Margin="20">
+            <TextBlock Text="Loomad" FontSize="16" FontFamily="Roboto" 
+                       HorizontalAlignment="Center" Margin="0,0,0,10"
+                       RenderTransformOrigin="0.5,0.5" Foreground="{StaticResource PrimaryTextColor}">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.314"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+
+            <ListBox x:Name="AnimalsListBox"
+                     Style="{StaticResource PrimaryListBoxStyle}"
+                     FontFamily="Roboto"
+                     Height="150"
+                     SelectionChanged="AnimalsListBox_SelectionChanged"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+                <Button x:Name="AddAnimalBtn" Content="Lisa" 
+                        Style="{StaticResource PrimaryButtonStyle}"
+                        Width="80" Height="28" Margin="5" 
+                        Click="AddAnimal" 
+                        BorderBrush="{StaticResource AccentGreen}"/>
+
+                <Button x:Name="RemoveAnimalBtn"
+                        Content="Eemalda" 
+                        Style="{StaticResource PrimaryButtonStyle}"
+                        Width="80" Height="28" Margin="5"
+                        Click="RemoveAnimal"
+                        BorderBrush="{StaticResource AccentRed}"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Info loomade kohta -->
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="10,20,20,20">
+            <TextBlock Text="Kirjeldus" FontSize="16" FontFamily="Yu Gothic Medium" 
+                       HorizontalAlignment="Center" Margin="0,0,0,10"
+                       RenderTransformOrigin="0.5,0.5" Foreground="{StaticResource PrimaryTextColor}">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.314"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <Border Background="{StaticResource PanelBackground}" BorderThickness="2" BorderBrush="{StaticResource BorderColor}" 
+                    CornerRadius="5" Height="80">
+                <TextBlock x:Name="AnimalDetailsText" TextWrapping="Wrap" 
+                           Text="Vali loom nimekirjast" 
+                           TextAlignment="Center" FontSize="12" Padding="10" 
+                           VerticalAlignment="Center" Foreground="{StaticResource PrimaryTextColor}"/>
+            </Border>
+
+
+
+            <!-- Nupud -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+
+                <Button x:Name="MakeSoundBtn" Content="Tee hääl"
+                        Style="{StaticResource PrimaryButtonStyle}"
+                        Width="100" Height="28" Margin="5"
+                        Click="MakeSound"/>
+
+                <Button x:Name="CrazyActionBtn" Content="Crazy Action!" 
+                        Style="{StaticResource PrimaryButtonStyle}"
+                        Width="100" Height="28" Margin="5" 
+                        Click="CrazyAction"/>
+
+                
+            </StackPanel>
+
+            <TextBox x:Name="FoodTextBox"
+                     Style="{StaticResource PrimaryTextBox}"
+                     Text="Sisesta toit..." 
+                     Margin="5"
+                     
+                     Width="160" Height="28" TextChanged="FoodTextBox_TextChanged" TextAlignment="Center"/>
+            <Button x:Name="FeedBtn" Content="Toida" 
+                    Style="{StaticResource PrimaryButtonStyle}"
+                    Width="120" Height="28"
+                    Click="Feed"/>
+
+            <Button x:Name="FlyBtn" Content="Lenda" 
+                        Style="{StaticResource PrimaryButtonStyle}"
+                        Width="119" Height="28" Margin="5" 
+                        Click="Fly"/>
+
+        </StackPanel>
+
+        <!-- Logi -->
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="2" Margin="20">
+            <TextBlock Text="Tegevuste logi" FontFamily="Roboto" FontWeight="Light" 
+                       Margin="0,0,0,5" Foreground="{StaticResource PrimaryTextColor}"/>
+            <ListBox x:Name="LogListBox" Style="{StaticResource PrimaryListBoxStyle}" 
+                     FontFamily="Roboto" Height="137"/>
+        </StackPanel>
+    </Grid>
+</Window>
